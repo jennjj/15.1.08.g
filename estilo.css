@@ -1,0 +1,1696 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap');
+
+:root{
+    
+    --verde: #7280b0;
+    --limon: #25d1b2;
+    --degradado:linear-gradient(90deg,var(--limon),var(--verde));
+}
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none; 
+}
+html{
+    font-size: 70%;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(47, 132, 156);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 1.8rem 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .logo{
+    margin: 0;
+    padding: 0;  
+}
+header .navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center
+}
+header .navbar ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+header .navbar a{
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    color: white;
+}
+header .navbar a:hover{
+    color: var(--limon);
+}
+header input{
+    display: none;
+}
+header label{
+    font-size: 3rem;
+    color: #000;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+/*...................................Menu Inicio.................................*/
+
+.Inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Inicio .contenedor {
+    width: 100%;
+}
+
+.Inicio .contenedor .image img{
+    width: 100%;
+    padding-top: 77px;
+}
+.Inicio .contenido h2{
+    width: 100%;
+    font-size: 4.5rem;
+    color:rgb(47, 132, 156);
+    text-align: center;
+}
+.Inicio .contenido span{
+    width: 100%;
+    font-size: 4rem;
+    color: rgb(11, 121, 121);
+}
+
+.Inicio .contenedor .contenido .contenedor1{
+    width: 100%;
+}
+
+.Inicio .contenedor .contenido .contenedor1 h3{
+    font-size: 2rem;
+    color: rgb(47, 132, 156);
+}
+
+.Inicio .contenedor .contenido .contenedor1 .caja1{
+    background:whitesmoke;
+    border-radius: 1rem;
+    border: .1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    margin: 1rem 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    transition: .2s linear;
+} 
+.Inicio .contenedor .contenido .contenedor1 .caja1 p{
+    font-size: 1.7rem;
+    text-align: center;
+    color: #666;
+    font-family:'verdana', Helvetica, sans-serif;
+}
+/*...................................Super Alimentos.................................*/
+
+.Super_alimentos .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Super_alimentos .contenedor .caja1{
+    flex: 1 1 30rem;
+    background: white;
+    border-radius: 1rem;
+    border: .1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    margin: 1.5rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    transition: .2s linear;
+}
+.Super_alimentos .contenedor .caja1 h3{
+    font-size: 2rem;
+    color: rgb(11, 121, 121);
+}
+.Super_alimentos .contenedor .caja1 p{
+    font-size: 1.7rem;
+    text-align: center;
+    color: #666;
+    font-family:'verdana', Helvetica, sans-serif;
+}
+.Super_alimentos .contenedor1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.Super_alimentos .contenedor1 .cajac2{
+    flex: 1 1 40rem;
+    height: 28rem;
+    background: white;
+    border-radius: 1rem;
+    border: .1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    margin: 1rem .5rem;
+    padding: 1.5rem .5rem;
+    text-align: center;
+    transition: .2s linear;
+}
+.Super_alimentos .contenedor1 .cajac2 h3{
+    font-size: 1.5rem;
+}
+.Super_alimentos .contenedor1 .cajac2 img{
+    height: 20rem;
+}
+
+.Super_alimentos .contenedor1 .cajac2 p{
+   
+    font-size: 1.3rem;
+    color: #666;
+    padding:2.5rem 1rem;
+
+}
+.Super_alimentos .contenedor1 .cajac3{
+    flex: 1 1 40rem;
+    background: white;
+    border-radius: 1rem;
+    border: .1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    margin: 1rem .5rem;
+    padding: 3rem .5rem;
+    text-align: center;
+    transition: .2s linear;
+}
+
+.Super_alimentos .contenedor1 .cajac3 h3{
+    font-size: 3rem;
+    color: rgb(11, 121, 121);
+}
+.Super_alimentos .contenedor1 .cajac3 p{
+   
+    font-size: 1.3rem;
+    color: #666;
+    padding: .2rem;
+
+}
+/*...................................Menu Productos.................................*/
+.Productos .contenedor .caja1{
+    flex: 1 1 30rem;
+    background: white;
+    border-radius: 1rem;
+    border: .1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    margin: 1.5rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    transition: .2s linear;
+}
+.Productos .contenedor .caja1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.Productos .contenedor .caja1 h3{
+    font-size: 2rem;
+    color: rgb(11, 121, 121);
+}
+.Productos .contenedor1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.Productos .contenedor1 .cajac2{
+    height: 29rem;
+    flex: 1 1 40rem;
+    background: white;
+    border-radius: 1rem;
+    border: .1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    margin: 1rem .5rem;
+    padding: 3rem .5rem;
+    text-align: center;
+    transition: .2s linear;
+}
+.Productos .contenedor1 .cajac2 h3 img{
+  
+    margin: 0;
+    padding: 0;
+}
+
+.Productos .contenedor1 .cajac2 p{
+   
+    font-size: 1.3rem;
+    color: #666;
+    padding: 0.5rem;
+
+}
+
+
+
+/*..................................Menu Oportunidad.................................*/
+.Oportunidad .contenedor .caja1{
+    flex: 1 1 30rem;
+    background: white;
+    border-radius: 1rem;
+    border: .1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    margin: 1.5rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    transition: .2s linear;
+}
+.Oportunidad .contenedor .caja1 h3{
+    font-size: 2rem;
+    color: rgb(11, 121, 121);
+}
+.Oportunidad .contenedor1 .caja1 {
+    flex: 1 1 30rem;
+    background:#fff;
+    border-radius: 1rem;
+    border: .1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    margin: 1.5rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    transition: .2s linear;   
+}
+
+.Oportunidad .contenedor1 .caja1 .cajan .cajita .marco{
+    font-size: 1.4rem;
+    margin: 1.5rem;
+    padding: .5rem 3rem;
+    border-radius: 5rem;
+    background:var(--degradado);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: all .3s linear;
+}
+.Oportunidad .contenedor1 .caja1 .cajan .info{
+
+    display:inline-block;
+    align-content: space-around;
+    align-items: center;
+}
+.Oportunidad .contenedor1 .caja1 .cajan .info img{
+    margin: .1rem 1rem;
+    padding: 1rem ;
+    background: whitesmoke;
+    border-radius: 50%;
+    height: 4.2rem;
+    width: 4.2rem;
+    align-items: center;
+    cursor: pointer;
+    border: 0.1em solid #fff; 
+    border-radius: 50%;
+    transition: ease 0.3s;
+    animation: efecto 3s infinite;
+}
+
+.Oportunidad .contenedor1 .caja1 .cajan .info img:hover{
+transform: scale(1.02);
+transition: 3s;
+animation:alternate-reverse;
+
+}
+
+.Oportunidad .contenedor1 .caja1 p{
+    font-size: 1.35rem;
+    text-align: center;
+    color: #666;
+    font-family:Verdana, Helvetica, sans-serif;
+  
+}
+.Oportunidad .contenedor1 .caja1 h3{
+    padding: 1rem ;
+    font-size: 2rem;
+    color: rgb(47, 132, 156);
+}
+.Oportunidad .contenedor1 .caja1 .cajan .cajita{
+    margin: 1rem 0;
+}
+.Oportunidad .contenedor1 .caja1 .cajan .cajita h3{
+    margin-bottom: .5rem 0;
+}
+.Oportunidad .contenedor1 .caja1 .cajan .cajita .penlace{
+    font-size: 1.35rem;
+    text-align: center;
+    color: #666;
+    font-family:Verdana, Helvetica, sans-serif;
+  
+    margin: 0rem 1rem 1.5rem .5rem;
+}
+.Oportunidad .contenedor1 .caja1 .cajan .cajita a{
+    margin-top: 1.5rem;
+}
+
+.Oportunidad .contenedor1 .caja1 .cajan .cajita a:hover{
+    color: #8b15c2;
+}
+/*.........................................FOOTER................................*/
+footer{
+    background: none;
+}
+footer .footer{
+    width: 100%;
+    background: url(img/footer-fondo5.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+footer .footer .Contactos .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+footer .footer .Contactos .cajac4{
+    margin-top: 2rem;
+}
+footer .footer .Contactos .contenedor .cajan{
+    flex: 1 1 40rem;
+    margin: 3.5rem auto;
+    margin-bottom: .2rem;
+    width:100%
+    
+}
+footer .footer .Contactos .contenedor .cajan h3{
+   
+    font-size: 2.5rem;
+    margin: 1rem auto;
+    padding: 1rem auto;
+    color: wheat;
+    text-decoration: underline;
+    text-align: center;
+}
+footer .footer .Contactos .contenedor .cajan .info {
+    display: flex;
+   margin: .5rem 1rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+footer .footer .Contactos .contenedor .cajan .info .fa-phone, .fa-envelope, .telegram1{
+    margin: .1rem 1rem;
+    padding: 1.1rem ;
+    background: whitesmoke;
+    border-radius: 50%;
+    height: 3.9rem;
+    width: 3.9rem;
+    align-items: center;
+}
+
+footer .footer .Contactos .contenedor .cajan .info .telegram1{
+    margin: .0rem 1rem;
+    background: none;
+    padding: 0rem;
+}
+
+footer .footer .Contactos .contenedor .cajan .info p{
+    width: 100%;
+    margin: 0.1em, 0;
+    padding: .0rem .5rem;
+    font-size: 2rem;
+    color: whitesmoke;
+    
+}
+
+footer .footer .Contactos .contenedor .cajan .pemail{
+    font-size: 1.5rem;
+}
+footer .footer .Contactos .contenedor .cajan a{
+    display:block;
+    font-size: 2.0rem;
+    padding: .5rem ;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+footer .footer .Contactos .contenedor .cajan a:hover{
+    color: aqua;
+    text-decoration: underline #000;
+   
+  
+}
+
+/*.........................................Footer whatssapp................................*/
+
+.whatsappw{
+    background-color: #2e6329;
+    border:1px solid #fff; ;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 29px;
+    right: 5px;
+    padding: 9px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+.whatsappw:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.whatsappw .boton{
+    width: 60px;
+    transition: ease 1s;
+}
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0,0,0,0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+    }
+}
+
+
+/*....Footer(links inferior Aviso cookies Politica cookies Terminos Condiciones)..........*/
+
+
+footer .footer .cajac4{
+
+   margin: auto;
+   padding: auto;
+}
+footer .footer .cajac4 ul{
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+    
+}
+footer .footer .cajac4 ul li{
+    display: inline-block;
+
+}
+
+footer .footer .cajac4 ul li a{
+    display: block;
+    color:whitesmoke;
+    margin: 1px;
+    padding: 2px;
+   text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    
+}
+footer .footer .cajac4  ul li a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+
+/*.................Pagina. Aviso de Cookies.................................*/
+
+.Aviso_Cookies h1{
+    margin: 2rem 2rem;
+    padding: 1rem .5rem;
+    font-size: 3rem;
+    color: rgb(11, 121, 121);
+    text-align: center;
+    }
+    .Aviso_Cookies .cajac3 h3{
+    margin: 2rem auto;
+    padding: 1rem .5rem;
+    font-size: 2rem;
+    color: rgb(11, 121, 121);
+    text-align: left;
+    }
+    .Aviso_Cookies .cajac3 p{
+    margin: 2rem 1rem;
+    padding: 1rem .5rem;
+    
+    font-size: 1.35rem;
+    color: #666;
+    }
+    
+
+.footer{
+    background: none;
+}
+.footer{
+    width: 100%;
+    background: url(img/footer-fondo5.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.footer .cajac4{
+    margin-top: 2rem;
+}
+.footer .contenedor .cajan{
+    flex: 1 1 40rem;
+    margin: 3.5rem auto;
+    margin-bottom: .2rem;
+    width:100%
+    
+}
+.footer .contenedor .cajan h3{
+   
+    font-size: 2.5rem;
+    margin: 1rem auto;
+    padding: 1rem auto;
+    color: wheat;
+    text-decoration: underline;
+    text-align: center;
+}
+.footer .contenedor .cajan .info {
+    display: flex;
+   margin: .5rem 1rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.footer .Contactos .contenedor .cajan .info .fa-phone, .fa-envelope, .telegram1{
+    margin: .1rem 1rem;
+    padding: 1.1rem ;
+    background: whitesmoke;
+    border-radius: 50%;
+    height: 3.9rem;
+    width: 3.9rem;
+    align-items: center;
+}
+
+.footer .Contactos .contenedor .cajan .info .telegram1{
+    margin: .0rem 1rem;
+    background: none;
+    padding: 0rem;
+}
+
+.footer .Contactos .contenedor .cajan .info p{
+    width: 100%;
+    margin: 0.1em, 0;
+    padding: .0rem .5rem;
+    font-size: 2rem;
+    color: whitesmoke;
+    
+}
+
+.footer .Contactos .contenedor .cajan .pemail{
+    font-size: 1.5rem;
+}
+.footer .Contactos .contenedor .cajan a{
+    display:block;
+    font-size: 2.0rem;
+    padding: .5rem ;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.footer .Contactos .contenedor .cajan a:hover{
+    color: aqua;
+    text-decoration: underline #000;
+   
+  
+}
+
+
+
+
+/*.......................Pag. Politica de Privacidad......................*/
+
+
+
+.Politica_Privacidad .cajac3 h1{
+margin: 2rem 2rem;
+padding: 1rem .5rem;
+font-size: 3rem;
+color: rgb(11, 121, 121);
+text-align: center;
+}
+.Politica_Privacidad .cajac3 h2{
+margin: 2rem auto;
+padding: 1rem .5rem;
+font-size: 2rem;
+color: rgb(11, 121, 121);
+text-align: left;
+}
+.Politica_Privacidad .cajac3 p{
+margin: 2rem 1rem;
+padding: 1rem .5rem;
+font-size: 1.35rem;
+color: #666;
+
+
+}
+
+/*.......................Pag. Terminos y Condiciones.................................*/
+
+.Terminos_Condiciones .cajac3 h1{
+margin: 2rem 2rem;
+padding: 1rem .5rem;
+font-size: 3rem;
+color: rgb(11, 121, 121);
+text-align: center;
+}
+.Terminos_Condiciones .cajac3 h2{
+margin: 2rem auto;
+padding: 1rem .5rem;
+font-size: 2rem;
+color: rgb(11, 121, 121);
+text-align: left;
+}
+.Terminos_Condiciones .cajac3 h3{
+    margin: 2rem auto;
+padding: 1rem .5rem;
+font-size: 1.8rem;
+color: rgb(11, 121, 121);
+text-align: left;
+
+}
+
+.Terminos_Condiciones .cajac3 p{
+margin: 2rem 1rem;
+padding: 1rem .5rem;
+
+font-size: 1.35rem;
+color: #666;
+}
+
+.footer{
+    background: none;
+}
+.footer{
+    width: 100%;
+    background: url(img/footer-fondo5.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.footer .cajac4{
+    margin-top: 2rem;
+}
+.footer .contenedor .caja{
+    flex: 1 1 40rem;
+    margin: 3.5rem auto;
+    margin-bottom: .2rem;
+    width:100%
+    
+}
+.footer .contenedor .caja h3{
+   
+    font-size: 2.5rem;
+    margin: 1rem auto;
+    padding: 1rem auto;
+    color: wheat;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.....................Ventana  Jason Inferior de Aviso de Cookies........................*/
+
+.aviso-cookies{
+	display: none;
+    margin-bottom: 0;
+    height: 60px;
+	background: rgb(246, 253, 255);
+	width: 100%;
+	line-height: 15%;
+	border-radius: 8px;
+	position: fixed;
+	bottom: 0px;
+	z-index: 100;
+	box-shadow: 0px 2px 20px 10px rgba(222, 222, 222, .25);
+	text-align: left;
+}
+.aviso-cookies.activo{
+	display: block;
+}
+.aviso-cookies .titulo{
+	padding-top: 13px;
+	margin-bottom: 4px;
+    margin-left: 2px;
+}
+
+.aviso-cookies .parrafo{
+	padding-top: 5px;
+	margin-bottom: px;
+    margin-left: 2px;
+    line-height: 50%;
+	
+}
+.aviso-cookies .parrafo .enlace{
+	color: #2a1690;
+	text-decoration: none;
+	font-size: 13px;
+    padding-left: 4px;
+   
+}
+.aviso-cookies .enlace:hover{
+	text-decoration: underline;
+}
+.aviso-cookies .boton{
+	width: 14%;
+    padding: 5px;
+	position: absolute;
+    right: 100px;
+    margin-bottom: 1px;
+	background: #595959;
+	border: none;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: 700;
+	cursor: pointer;
+	transition: .3s ease all;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.aviso-cookies .boton:hover{
+	background: #000;
+}
+/*.......................Responsive Page.....................................*/
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-3.5rem);
+    }
+}
+
+/*.......................Re.- 1235...........................................*/
+@media(max-width:1235px){
+    .Super_alimentos .contenedor1 .cajac2{
+        height: 35rem;
+    }
+    .Productos .contenedor1 .cajac2{
+        height: 33rem;
+    }
+
+}
+
+/*.......................Re.769- 1200...........................................*/
+
+@media(max-width:1200px){
+  
+    
+    .aviso-cookies{
+        display: none;
+        margin: .1px 0;
+        background: rgb(246, 253, 255);
+        padding-top: 11px;
+        padding: .5px;
+        width: 100%;
+        min-height: 65px;
+        line-height: 15%;
+        border-radius: 10px;
+        position: fixed;
+        z-index: 100;
+       
+        box-shadow: 0px 2px 20px 10px rgba(222, 222, 222, .25);
+        text-align: left;
+    }
+    .aviso-cookies.activo{
+        display: block;
+    }
+    .aviso-cookies .titulo{
+        padding-top: 10px;
+       
+    }
+    .aviso-cookies .parrafo{
+        padding-top: 7px;
+        margin-bottom: 1.5px;
+        line-height: 100%;
+        font-size: 10px;
+        
+    }
+    .aviso-cookies .parrafo .enlace{
+        color: #13c6f3d6;
+        text-decoration: none;
+        font-size: 13px;
+        padding-top: 5px;
+        padding-left: 4px;
+       
+    }
+    .aviso-cookies .enlace:hover{
+        text-decoration: underline;
+    }
+    
+    .aviso-cookies .boton{
+        width: 15%;
+        height: 23px;
+        position: absolute;
+        right: 1px;
+        margin-right: 0px;
+        background: #595959;
+        border: none;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-weight: 300;
+        cursor: pointer;
+        transition: .3s ease all;
+        border-radius: 5px;
+        font-size: 11.5px;
+    }
+    .aviso-cookies .boton:hover{
+        background: #000;
+    }
+}
+/*.......................Re.936- 1120...........................................*/
+@media(max-width:1135px){
+    .Productos .contenedor1 .cajac2{
+        height: 36rem;
+    }
+
+}
+
+/*.......................Re.769- 934...........................................*/
+@media(max-width:934px){
+    header .navbar ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+  
+
+    .Productos .contenedor1 .cajac2{
+        height:fit-content;
+    }
+
+}
+
+/*.......................Re.491-768.....................................*/
+
+
+@media(max-width:768px){
+    header label{
+        visibility: visible;
+        opacity: 1;
+    }
+    header .navbar{
+        position:absolute;
+        top: 100%;
+        left:0;
+        width:100%;
+        background: rgb(47, 132, 156);
+        padding: 1rem 2rem;
+        border-top:.1rem solid rgba(0, 0, 0, 0.2);
+        box-shadow:0 .5rem 1rem rgba(0, 0, 0, 0.1) ;
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+    }
+  
+    
+
+    header .navbar ul{
+        display:block;
+        margin:2rem 0;
+        font-size: 2rem;
+        color: #fff;
+    }
+   
+
+    header input:checked ~.navbar{
+        transform: scaleY(1);
+        opacity: 1;
+
+    }
+    header input:checked~label::before{
+        content:'\f00d';
+    } 
+
+
+  
+    .Inicio{
+        flex-flow: column-reverse;
+    } 
+
+    .Inicio .image img{
+        width: 100%;
+        height: 300px;
+    }
+    .Inicio .contenedor .contenido h2{
+        font-size: 3.6rem;
+    }
+    .Inicio .contenedor .contenido span{
+        font-size: 3.6rem;
+    }
+    .Inicio .contenedor .contenido .contenedor1 .caja1 h3{
+        font-size: 3rem;
+    }
+     /*....................Re.491-768.Super.Alimentos.............*/
+
+     .Super_alimentos .contenedor1 .cajac2{
+        height: fit-content;
+    }
+
+    .Super_alimentos .contenedor1 .cajac3{
+        height: fit-content;
+    }
+    .Super_alimentos .contenedor1 .cajac2 img{
+        height: fit-content;
+    }
+     /*..............Re.491-768.Productos.............*/
+    .Productos .contenedor1 .cajac2{
+        height: fit-content;
+
+    }
+    /*.......................Re footer 491-768.....................................*/
+
+    .footer .Contactos .contenedor .cajan .info .pemail{
+        font-size: 1.55rem;
+        padding: .5rem;
+
+    }
+
+    .footer .Contactos .cajac4{
+        margin-top: 2.5rem;
+    }
+     /*.....................Re footer  whatsapp 491-768.....................................*/
+
+    .whatsappw{
+        background-color: #2e6329;
+        border:1px solid #fff; ;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 47px;
+        right: 5px;
+        padding: 1.5px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+    }
+    .whatsappw .boton{
+        width: 35px;
+        transition: ease 1s;
+    }
+
+    /*...................Re ventana pop up aviso cookies 491-768............................*/
+
+    .aviso-cookies{
+        display: none;
+        margin: 0;
+        min-height: 74px;
+        background: rgb(246, 253, 255);
+        padding-top: .5px;
+        width: 100%;
+        line-height: 15%;
+        border-radius: 10px;
+        position: fixed;
+        z-index: 100;
+        box-shadow: 0px 2px 20px 10px rgba(222, 222, 222, .25);
+        text-align: left;
+    }
+    .aviso-cookies.activo{
+        display: block;
+    }
+    .aviso-cookies .titulo{
+        margin-left: 4px;
+       
+    }
+    .aviso-cookies .parrafo{
+        margin: 4.5px;
+        margin-left: 4px;
+        line-height: 100%;
+        font-size: 10px;
+      
+        
+    }
+    .aviso-cookies .parrafo .enlace{
+        color: #f3137fd6;
+        text-decoration: none;
+        font-size: 11px;
+        padding-left: 8px;
+       
+    }
+    .aviso-cookies .enlace:hover{
+        text-decoration: underline;
+    }
+    
+    .aviso-cookies .boton{
+        width: 16%;
+        padding: .5px;
+        position: absolute;
+        right: 1px;
+        margin-right: 25px;
+        margin-bottom: 0px;
+        background: #595959;
+        border: none;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-weight: 300;
+        cursor: pointer;
+        transition: .3s ease all;
+        border-radius: 5px;
+        font-size: 11.5px;
+    }
+    .aviso-cookies .boton:hover{
+        background: #000;
+    }
+
+}
+
+
+
+/*.......................Re.306-490.....................................*/
+
+@media(max-width:490px){
+
+    body{
+
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+  
+    header{
+        position:fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(47, 132, 156);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+        padding: 1.8rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+        
+    }
+
+
+    header label{
+        visibility: visible;
+        opacity: 1;
+        margin-right: 24px;
+    }
+
+    header .fa-bars{
+
+        margin-right: 10px;
+    }
+    header .navbar{
+        position:absolute;
+        top: 100%;
+        left:0;
+        width: 100%;
+        background: rgb(47, 132, 156);
+        padding: 1rem 1rem;
+        border-top:.1rem solid rgba(0, 0, 0, 0.2);
+        box-shadow:0 .5rem 1rem rgba(0, 0, 0, 0.1) ;
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+    }
+
+    header .navbar a{
+        display:block;
+        margin:2rem 0;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+
+    header input:checked ~.navbar{
+        transform: scaleY(1);
+        opacity: 1;
+
+    }
+    header input:checked~label::before{
+        content:'\f00d';
+    } 
+    .Inicio{
+        flex-flow: column-reverse;
+    } 
+    .Inicio .image img{
+        width: 100%;
+        height: 300px;
+    }
+    .Inicio .contenedor .contenido h2{
+        font-size: 3.5rem;
+    }
+    .Inicio .contenedor .contenido span{
+        font-size: 3.5rem;
+    }
+    .Inicio .contenedor .contenido .contenedor1 .caja1 h3{
+        font-size: 3rem;
+    }
+    /*....................Re.306-490.Super.Alimentos.............*/
+
+    .Super_alimentos .contenedor1 .cajac2{
+        height: fit-content;
+    }
+
+    .Super_alimentos .contenedor1 .cajac3{
+        height: fit-content;
+    }
+    .Super_alimentos .contenedor1 .cajac2 img{
+        height: fit-content;
+    }
+     /*..............Re.306-490.Productos.............*/
+    .Productos .contenedor1 .cajac2{
+        height: fit-content;
+
+    }
+    /*.......................Re footer.306- 490.....................................*/
+
+    .footer{
+        background: none;
+    }
+    .footer{
+        width: 100%;
+        background: url(img/footer-fondo5.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .footer .Contactos .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .footer .Contactos .cajac4{
+        margin-top: 1rem;
+    }
+
+    .footer .Contactos .contenedor .cajan{
+        flex: 1 1 20rem;
+        margin: 1.5rem 0;
+        margin-bottom: .2rem;
+        
+    }
+    .footer .Contactos .contenedor .cajan h3{
+       
+        font-size: 2rem;
+        margin: 1rem 0;
+        padding: 1rem 0;
+        color: wheat;
+        text-decoration: underline;
+        text-align: center;
+    }
+    .footer .Contactos .contenedor .cajan .info {
+        display: flex;
+       margin: .5rem .1rem;
+        font-size: 1.8rem;
+        text-decoration: none;
+    }
+    
+    .footer .Contactos .contenedor .cajan .info .fa-phone, .fa-envelope, .telegram1{
+        margin: .1rem .7rem;
+        padding: 1.1rem ;
+        background: whitesmoke;
+        border-radius: 50%;
+        height: 3.9rem;
+        width: 3.9rem;
+        align-items: center;
+    }
+    
+    .footer .Contactos .contenedor .cajan .info .telegram1{
+        margin: .0rem .7rem;
+        background: none;
+       height: 4rem;
+       width: 4rem;
+    }
+    
+    .footer .Contactos .contenedor .cajan .info p{
+        width: 100%;
+        margin: 0.1em, 0rem;
+        padding: .0rem .5rem;
+        font-size: 2rem;
+        color: whitesmoke;
+        
+    }
+    
+    .footer .Contactos .contenedor .cajan .info .pemail{
+        font-size: 1.24rem;
+        padding: .5rem;
+
+    }
+    .footer .Contactos .contenedor .cajan .info .telegram{
+        padding-top: .5rem 
+    }
+    .footer .Contactos .contenedor .cajan a{
+        display:block;
+        font-size: 2.0rem;
+        padding: .5rem ;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    
+    .footer .Contactos .contenedor .cajan:hover{
+        text-decoration: underline;
+        color: #000;
+    }
+
+
+
+/*......................Re.306-499.whatssapp.......................*/
+  
+    .whatsappw{
+        background-color:none;
+        border:.1px solid #fff; ;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 21px;
+        right: 2.8px;
+        padding:1.3px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+    }
+    .whatsappw:hover{
+        transform: scale(1.1);
+        transition: .3s;
+    }
+    .boton{
+        width: 29px;
+        transition: ease 1s;
+    }
+    @keyframes efecto{
+        0%{
+            box-shadow: 0 0 0 0 rgba(0,0,0,0.85);
+        }
+        100%{
+            box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
+        }
+    }
+   
+
+/*...................Re.306-499.aviso-cookies.....*/
+
+    .aviso-cookies{
+        display: none;
+        width: 100%;
+        height: 71px;
+        margin: .0px auto;
+        background: rgb(246, 253, 255);
+        padding-top: 2px;
+        padding: 1px;
+        line-height: 15%;
+        border-radius: 10px;
+        position: fixed;
+        z-index: 100;
+        box-shadow: 0px 2px 20px 10px rgba(222, 222, 222, .25);
+        text-align: left;
+    }
+    .aviso-cookies.activo{
+        display: block;
+    }
+    .aviso-cookies .titulo{
+        margin-top: 3px;
+        margin-left: 2px;
+       
+    }
+    .aviso-cookies .parrafo{
+        margin-left: 2px;
+        margin: .5px;
+        line-height: 100%;
+        font-size: 10px;
+        
+    }
+    .aviso-cookies .parrafo .enlace{
+        color: #b3175bd6;
+        text-decoration: none;
+        font-size: 10px;
+        padding-top: 5px;
+        padding-left: 6px;
+       
+    }
+    .aviso-cookies .enlace:hover{
+        text-decoration: underline;
+    }
+    
+    .aviso-cookies .boton{
+        width: 19%;
+        position: absolute;
+        right: 2.9px;
+        margin-bottom: 0;
+        background: #595959;
+        border: none;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-weight: 20;
+        cursor: pointer;
+        transition: .3s ease all;
+        border-radius: 5px;
+        font-size: 10px;
+        
+        
+    
+    }
+    .aviso-cookies .boton:hover{
+        background: #000;
+    }
+
+
+
+
+}
+
+    /*.......................Re P 305.....................................*/
+
+@media(max-width:305px){
+
+    body{
+
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        position:fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(47, 132, 156);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+        padding: 1.8rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+        
+    }
+
+
+    header label{
+        visibility: visible;
+        opacity: 1;
+        margin-right: 20px;
+    }
+
+    header .fa-bars{
+
+        margin-right: 25px;
+    }
+    header .navbar{
+        position:absolute;
+        top: 100%;
+        left:0;
+        width: 100%;
+        background: rgb(47, 132, 156);
+        padding: 1rem 1rem;
+        border-top:.1rem solid rgba(0, 0, 0, 0.2);
+        box-shadow:0 .5rem 1rem rgba(0, 0, 0, 0.1) ;
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+    }
+
+    header .navbar a{
+        display:block;
+        margin:2rem 0;
+        font-size: 2rem;
+        color: #fff;
+
+    }
+
+
+    header input:checked ~.navbar{
+        transform: scaleY(1);
+        opacity: 1;
+
+    }
+    header input:checked~label::before{
+        content:'\f00d';
+    } 
+
+
+    .Inicio{
+        flex-flow: column-reverse;
+    } 
+    .Inicio .image img{
+        width: 100%;
+        height: 300px;
+    }
+    .Inicio .contenedor .contenido h2{
+        width: 100%;
+        font-size: 3rem;
+    }
+    .Inicio .contenedor .contenido span{
+        font-size: 3rem;
+    }
+    .Inicio .contenedor .contenido .contenedor1 .caja1 h3{
+        font-size: 3rem;
+    }
+    /*..................Re.305.Super.alimentos....*/
+
+    .Super_alimentos .contenedor1 .cajac2 img{
+        height: 15rem;
+    }
+    .Super_alimentos .contenedor1 .cajac2 .curcu{
+        height: 10rem;
+    }
+
+    .Super_alimentos .contenedor1 .cajac3{
+        height: fit-content;
+    }
+    .Productos .contenedor1 .cajac2 .curcu{
+        height: 15rem;
+
+    }
+
+    /*.....................Re.305.footer........*/
+
+    .footer{
+        background: none;
+    }
+    .footer{
+        width: 100%;
+        background: url(img/footer-fondo5.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .footer .Contactos .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .footer .Contactos .cajac4{
+        margin-top: .8rem;
+    }
+    .footer .Contactos .contenedor .cajan{
+        flex: 1 1 20rem;
+        margin: 1.5rem 0;
+        margin-bottom: .2rem;
+        
+    }
+    .footer .Contactos .contenedor .cajan h3{
+       
+        font-size: 2rem;
+        margin: 1rem 0;
+        padding: 1rem 0;
+        color: wheat;
+        text-decoration: underline;
+        text-align: center;
+    }
+    .footer .Contactos .contenedor .cajan .info {
+        display: flex;
+       margin: .5rem .1rem;
+        font-size: 1.8rem;
+        text-decoration: none;
+    }
+    
+    .footer .Contactos .contenedor .cajan .info .fa-phone, .fa-envelope, .telegram1{
+        margin: .1rem .13rem;
+        padding: 1.1rem ;
+        background: whitesmoke;
+        border-radius: 50%;
+        height: 3.9rem;
+        width: 3.9rem;
+        align-items: center;
+    }
+    
+    .footer .Contactos .contenedor .cajan .info .telegram1{
+        margin: .0rem .1rem;
+        background: none;
+       height: 4rem;
+       width: 4rem;
+    }
+    
+    .footer .Contactos .contenedor .cajan .info p{
+        width: 100%;
+        margin: 0.1em, 0rem;
+        padding: .0rem .5rem;
+        font-size: 2rem;
+        color: whitesmoke;
+        
+    }
+    
+    .footer .Contactos .contenedor .cajan .info .pemail{
+        font-size: 1.0rem;
+        padding: .5rem;
+
+    }
+    .footer .Contactos .contenedor .cajan a{
+        display:block;
+        font-size: 2.0rem;
+        padding: .5rem ;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .footer .Contactos .contenedor .cajan:hover{
+        text-decoration: underline;
+        color: #000;
+    }
+    .footer .Contactos .contenedor .cajan a:hover{
+        color: aqua;
+        text-decoration: underline #000;
+       
+      
+    }
+     /*...................Re.305.footer.whatssapp.....*/
+    .whatsappw{
+        background-color:none;
+        border:.1px solid #fff; ;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 21.5px;
+        right: 19px;
+        padding:.1px 3px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+    }
+    .whatsappw:hover{
+        transform: scale(1.1);
+        transition: .3s;
+    }
+    .boton{
+        width: 20px;
+        transition: ease 1s;
+    }
+
+    @keyframes efecto{
+        0%{
+            box-shadow: 0 0 0 0 rgba(0,0,0,0.85);
+        }
+        100%{
+            box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
+        }
+    }
+    /*...................Re.305.footer.aviso-cookies.....*/
+    .aviso-cookies{
+        display: none;
+        width: 100%;
+        margin: 0 0;
+        background: rgb(246, 253, 255);
+        padding-top: 2px;
+        padding: 1px;
+        height: 81px;
+        line-height: 15%;
+        border-radius: 10px;
+        position: fixed;
+        z-index: 100;
+        box-shadow: 0px 2px 20px 10px rgba(222, 222, 222, .25);
+        text-align: left;
+    }
+    .aviso-cookies.activo{
+        display: block;
+    }
+    .aviso-cookies .titulo{
+        margin-top: 3px;
+        margin-left: 3px;
+       
+    }
+    .aviso-cookies .parrafo{
+        padding-top: 5px;
+        margin-left: 3px;
+        margin-bottom: 1px;
+        line-height: 100%;
+        font-size: 10px;
+        
+    }
+    .aviso-cookies .parrafo .enlace{
+        color: #34b317d6;
+        text-decoration: none;
+        font-size: 10px;
+        padding-top: 5px;
+        padding-left: 6px;
+       
+    }
+    .aviso-cookies .enlace:hover{
+        text-decoration: underline;
+    }
+    
+    .aviso-cookies .boton{
+        width: 22%;
+        height: 20px;
+        position: absolute;
+        right: 19.5px;
+        margin-right: 3px;
+        bottom: 6px;
+        margin-bottom: .5px;
+        padding-right: 2px;
+        padding-bottom: 1.5px;
+        background: #595959;
+        border: none;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-weight: 20;
+        cursor: pointer;
+        transition: .3s ease all;
+        border-radius: 5px;
+        font-size: 10px;    
+    
+    }
+    .aviso-cookies .boton:hover{
+        background: #000;
+    }
+
+}
+
+
+
+
