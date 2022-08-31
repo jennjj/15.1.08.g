@@ -128,7 +128,8 @@ header label{
     flex-wrap: wrap;
 }
 .Super_alimentos .contenedor .caja1{
-    flex: 1 1 30rem;
+    flex: 1 1;
+    width: 100%;
     background: white;
     border-radius: 1rem;
     border: .1rem solid rgba(0, 0, 0, 0.1);
@@ -156,7 +157,7 @@ header label{
    
 }
 .Super_alimentos .contenedor1 .cajac2{
-    flex: 1 1 40rem;
+    flex: 1 1 50rem;
     height: 28rem;
     background: white;
     border-radius: 1rem;
@@ -182,7 +183,7 @@ header label{
 
 }
 .Super_alimentos .contenedor1 .cajac3{
-    flex: 1 1 40rem;
+    flex: 1 1 100%;
     background: white;
     border-radius: 1rem;
     border: .1rem solid rgba(0, 0, 0, 0.1);
@@ -374,10 +375,12 @@ footer .footer{
 footer .footer .Contactos .contenedor {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
    
 }
 footer .footer .Contactos .cajac4{
     margin-top: 2rem;
+    width:100%;
 }
 footer .footer .Contactos .contenedor .cajan{
     flex: 1 1 40rem;
@@ -914,7 +917,7 @@ color: #666;
   
 
     .Productos .contenedor1 .cajac2{
-        height:fit-content;
+        height:35rem;
     }
 
 }
